@@ -7,6 +7,59 @@ body {
 }
 h1 {
     color: white;
-    font-family: 'PT Mono', monospace;
+    font-family: 'Advent Pro', sans-serif;
     font-size: 10em;
+}
+#web-dev {
+    font-size: 3em;
+    font-family: 'Khand', sans-serif;
+}
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 15em 20em 10em 10em;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.div1 {
+    grid-area: 1 / 1 / 2 / 2;
+}
+.div2 {
+    grid-area: 2 / 1 / 3 / 2;
+}
+.div3 {
+    color: white;
+    grid-area: 3 / 1 / 4 / 2;
+}
+.div4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    color: white;
+    grid-area: 4 / 1 / 5 / 3;
+}
+.div5 {
+    /*background-color: cornflowerblue;*/
+    grid-area: 1 / 2 / 4 / 3;
+}
+.parent2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+.div6 {
+    background-color:#d600ff;
+    grid-area: 1 / 1 / 3 / 2;
+}
+.div7 {
+    background-color: #00b8ff;
+    grid-area: 2 / 2 / 4 / 3;
+}
+.div8 {
+    background-color: #00ff9f;
+    grid-area: 3 / 1 / 5 / 2;
 }
