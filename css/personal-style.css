@@ -1,0 +1,12 @@
+
+/*font-family: 'Advent Pro', sans-serif;*/
+/*font-family: 'Khand', sans-serif;*/
+/*font-family: 'PT Mono', monospace;*/
+body {
+    background-image: url("../img/dark_mosaic/dark_mosaic_@2X.png");
+}
+h1 {
+    color: white;
+    font-family: 'PT Mono', monospace;
+    font-size: 10em;
+}
