@@ -12,5 +12,8 @@ $(document).ready(function () {
         $('.about-me').toggle();
     });
 
+    $('.toggle-contact').click(function () {
+        $('.contact-parent').toggle();
+    });
 
 })
